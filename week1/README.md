@@ -10,8 +10,8 @@ Write a function ```printInteger``` which:
 ```cpp
 printInteger(12345); // prints "1   2   3   4   5"
 ```
-<br/>
-<br/>
+<br>
+<br>
 
 ## Question 2
 Write a program *pointerDemo.cpp* which:
@@ -26,8 +26,8 @@ Write a program *pointerDemo.cpp* which:
 9. assigns ```ptr``` the address of ```value2```.
 10. adds 2000 to the value pointed to by ```ptr```.
 11. prints the value of ```value1``` and ```value2```. What do you observe? Can you explain the observation?
-<br/>
-<br/>
+<br>
+<br>
 
 ## Question 3
 In *pointerDemo2.cpp*:
@@ -43,8 +43,8 @@ In *pointerDemo2.cpp*:
     5. print ```x``` and ```y```.
 
 What do you observe? Are ```x``` and ```y``` in ```main``` same as the ```x``` and ```y``` in ```changeValue```? Can you explain the observations?
-<br/>
-<br/>
+<br>
+<br>
 
 
 
@@ -57,8 +57,8 @@ Create a class ```Employee``` that has three attributes:
  Your class should have a constructor that initializes the three data members. Provide a set and get function for each data member. If the monthly salary is not positive, set it to 0. 
 
 Write a program ```calYearlySalary.cpp``` that demonstrates class ```Employee```’s capabilities. Create two ```Employee``` objects and display each object’s yearly salary. Then give each employee a 10 percent raise and display each employee’s yearly salary again.
-<br/>
-<br/>
+<br>
+<br>
 
 ## Optional
 1. Create a base class called ```Account``` that contains:
@@ -71,13 +71,13 @@ Write a program ```calYearlySalary.cpp``` that demonstrates class ```Employee```
 The constructor should validate initial balance to ensure that it is greater than or equal to 0. If not, set ```balance``` to 0 and display error message *"Initial balance was invalid.".*
 
 ```debit()``` should ensure the amount to withdraw does not exceed the account's balance. If it does, balance should not change. Instead, print an error message *"Debit amount exceeded account balance."*
-<br/>
+<br>
 
 2. Next, define a derived class ```SavingsAccount``` that inherits from ```Account``` and contains:
 - attribute ```interestRate``` of type double to represent interest rate (percentage) 
 - constructor that receives initial balance as well as initial value for ```interestRate```.
 - function ```calculateInterest()``` that returns double to represent amount of interest (interest rate * account balance )
-<br/>
+<br>
 
 3.	Define another derived class ```CheckingAccount``` that inherits from ```Account``` and contains:
 - attribute ```fee``` of type double that represents fee charged per transaction 
@@ -85,7 +85,7 @@ The constructor should validate initial balance to ensure that it is greater tha
 - overridden functions ```credit()``` and ```debit()``` so that they subtract ```fee``` from  ```balance``` whenever transaction is successful
 
 ```debit()``` function charges fee only if money is actually withdrawn.
-<br/>
+<br>
 
 4.	Now, write a polymorphic banking program called ```banking.cpp```. Create a ```vector``` of ```Account``` pointers to ```SavingsAccount``` and ```CheckingAccount``` objects. For each ```Account``` in the vector:
 - allow user to specify amount to withdraw from it using ```debit()```.
