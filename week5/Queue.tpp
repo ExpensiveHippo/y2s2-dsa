@@ -84,7 +84,8 @@ bool Queue<ItemType>::dequeue(ItemType &item)
 template <class ItemType>
 void Queue<ItemType>::getFront(ItemType &item)
 {
-    if (head != nullptr) {
+    if (head != nullptr)
+    {
         item = head->item;
     }
 }

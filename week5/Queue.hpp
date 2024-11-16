@@ -1,17 +1,17 @@
 #pragma once
 
-template <class ItemType> 
+template <class ItemType>
 class Queue
 {
 private:
     struct Node
     {
-        ItemType item; 
-        Node *next;    
+        ItemType item;
+        Node *next;
     };
 
-    Node *head; 
-    Node *tail;  
+    Node *head;
+    Node *tail;
 
 public:
     // constructor

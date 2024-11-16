@@ -1,14 +1,13 @@
 #include "Employee.hpp"
 
-Employee::Employee() { }
+Employee::Employee() {}
 
 Employee::Employee(
-    std::string first, 
-    std::string last, 
-    int monthly) :
-    firstName(first),
-    lastName(last),
-    monthlySalary(monthly > 0 ? monthly : 0) { }
+    std::string first,
+    std::string last,
+    int monthly) : firstName(first),
+                   lastName(last),
+                   monthlySalary(monthly > 0 ? monthly : 0) {}
 
 void Employee::setFirstName(std::string f) { firstName = f; }
 

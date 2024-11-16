@@ -127,7 +127,6 @@ void customerDemo()
 {
     Queue<Customer *> q;
     int option, served = 0, servedTime = 0, timeSpan = 0, count = 1, limit = 10;
-    
 
     srand(time(0));
 

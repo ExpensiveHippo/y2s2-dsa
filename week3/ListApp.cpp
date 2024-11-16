@@ -1,6 +1,7 @@
 #include "List.hpp"
 
-int main() {
+int main()
+{
     List nameList;
     nameList.add("Annie");
     nameList.add("Jacky");

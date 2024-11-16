@@ -73,7 +73,8 @@ bool Stack<ItemType>::pop(ItemType &item)
 template <class ItemType>
 void Stack<ItemType>::getTop(ItemType &item)
 {
-    if (top != nullptr) {
+    if (top != nullptr)
+    {
         item = top->item;
     }
 }

@@ -2,7 +2,6 @@ REM COMPILES ALL .CPP FILE IN A FOLDER
 @echo off
 setlocal
 
-
 REM Check if folder arguement was provided
 if "%~1"=="" (
     echo No folder specified. Using current directory.
