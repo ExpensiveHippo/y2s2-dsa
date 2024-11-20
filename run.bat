@@ -1,6 +1,6 @@
-REM COMPILES ALL .CPP FILE IN A FOLDER
 @echo off
 setlocal
+REM COMPILES ALL .CPP FILE IN A FOLDER
 
 REM Check if folder arguement was provided
 if "%~1"=="" (
