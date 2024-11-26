@@ -84,7 +84,7 @@ bool Dictionary<ItemType>::add(KeyType key, ItemType item)
 
             if (current->key == key)
             {
-                // key already exists, can't add new item apparently??
+                // key already exists, but can't update?
                 return false;
             }
         }
