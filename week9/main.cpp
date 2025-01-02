@@ -100,6 +100,6 @@ void displayMenu()
     cout << "7 Check if tree is balanced     \n";
     cout << "8 Display preorder              \n";
     cout << "9 Display postorder             \n";
-    cout << "0 Exit							 \n";
+    cout << "0 End                           \n";
     cout << "--------------------------------\n";
 }
